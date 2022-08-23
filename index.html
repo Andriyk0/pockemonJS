@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PockemonJS</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Pockedex</h1>    
+  </header>
+
+  <main class="main">
+    <div class="pockemons">
+      <div class="pockemons__left_side">
+        <select class="sort_select">
+          <option value="All">All</option>
+        </select>
+        <ul class="pockemons__list"></ul>
+        <button class="loadMore">Load More</button>
+      </div>
+      <div class="pockemons__right_side">
+        <div class="pockemons__details details"></div>
+      </div>
+    </div>
+  </main>
+  
+  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./js/api.js"></script>
+</body>
+</html>
