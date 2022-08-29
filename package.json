@@ -1,0 +1,23 @@
+{
+  "homepage": "https://github.com/Andriyk0/pockemonJS",
+  "name": "pockemonjs",
+  "version": "1.0.0",
+  "description": "Instructions on how to run app:\r -clone github repository\r -Open VSCode and install Live server\r -Open a project and click to Go Live from the status bar to turn the server on/off.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andriyk0/pockemonJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andriyk0/pockemonJS/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
