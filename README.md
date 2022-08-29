@@ -1,4 +1,4 @@
-[DEMO LINK](https://github.com/Andriyk0/pockemonJS)
+[DEMO LINK](https://andriyk0.github.io/pockemonJS/)
 
 Instructions on how to run app:
 -clone github repository
