@@ -44,6 +44,7 @@
   border: 1px solid;
   padding: 12px;
   list-style: none;
+  cursor: pointer;
 }
 .pockemons__image {
   width: 100%;
